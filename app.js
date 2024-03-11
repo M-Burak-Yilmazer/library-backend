@@ -9,7 +9,7 @@ app.use(express.json());
 // CORS ayarları
 app.use(
   cors({
-    origin: "http://localhost:3000", // İzin verilen köken
+    origin: "https://library-frontend-sigma.vercel.app/", // İzin verilen köken
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // İzin verilen HTTP metodları
     credentials: true, // Kimlik bilgilerinin gönderilmesine izin ver
     preflightContinue: false,
